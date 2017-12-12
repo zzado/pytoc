@@ -257,7 +257,7 @@ class PYTOC:
 		
 		m.write("CC = gcc\n")
 		m.write("%s : %s.c\n"%(output, output))
-		m.write("\tgcc -o %s %s.c"%(output, output))
+		m.write("\tgcc -o %s %s.c -w"%(output, output))
 		m.close()
 		p.success("Create C source code & Makefile in %s directory!"%(output))
 
