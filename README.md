@@ -1,2 +1,11 @@
 # pytoc
-###경기대학교 컴파일러 프로젝트
+
+### Useage
+	* python pytoc.py (python 2.x)
+
+### Dependency
+	* pip install pyfiglet
+	* pip install termcolor
+	* pip install colorama
+	* pip install pwntools
+

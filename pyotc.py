@@ -271,6 +271,7 @@ class Tokenizer:
 		cprint(figlet_format("PyToC", font="larry3d"),'green', attrs=['bold'])
 
 	def _start(self):
+		log.info("Input file must exist same directory")
 		self.file_path = raw_input("[*] Input python source code to convert >> ")
 		self.file_path = self.file_path.strip("\n")
 		self.file_path = self.file_path.split(".")[0]
